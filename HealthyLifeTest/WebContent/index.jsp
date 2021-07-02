@@ -7,6 +7,9 @@
 <title>/index.jsp</title>
 </head>
 <body>
-
+	<div class="container">
+		<h1>index 페이지 입니다.</h1>
+		<a href="${pageContext.request.contextPath}/users/signup_form.jsp">회원가입</a>
+	</div>
 </body>
 </html>
